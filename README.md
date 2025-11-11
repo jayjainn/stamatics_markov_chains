@@ -1,5 +1,18 @@
 # Navigating Random Realms: From Markov Chains to Hidden Models  
 ### Credit Card Fraud Detection using Stochastic Modeling
+# Update Notice (v2 Added)
+
+This repository now includes an improved version of the HMM fraud detection model located in:
+`/improved_version/`
+
+**Key Improvements:**
+- Uses sequence modeling (sliding windows of length 20)
+- Trains HMM on normal sequences only
+- Threshold chosen via validation set (no leakage)
+- Evaluates using fraud-focused metrics (Precision, Recall, F1, PR-AUC)
+- Includes Viterbi interpretation plots
+
+The original version is kept below for reference and transparency.
 
 This project demonstrates the application of Markov Chains and Hidden Markov Models (HMMs) to detect fraudulent credit card transactions by modeling user spending behavior as a stochastic process. It connects theoretical probabilistic models with real-world fintech applications.
 
