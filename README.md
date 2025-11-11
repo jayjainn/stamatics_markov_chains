@@ -36,13 +36,6 @@ To detect fraudulent transactions by modeling normal user spending behavior thro
 
 ---
 
-## Results
-- Achieved accuracy around **85%** with **false-positive rates below 10%**.  
-- The model assigned high likelihoods to normal sequences and effectively flagged unusual spending as anomalies.  
-- Demonstrated the interpretability and robustness of stochastic modeling in fraud detection.
-
----
-
 ## Tech Stack
 - **Language:** Python  
 - **Libraries:** pandas, numpy, matplotlib, scikit-learn, hmmlearn  
